@@ -18,8 +18,12 @@ struct ContentView: View {
                 CommentBlock()
                 Spacer()
             }
+            .padding([.leading, .trailing], 24)
+            VStack{
+                Spacer()
+                    NavBar()
+            }
         }
-        .padding(24)
     }
 }
 

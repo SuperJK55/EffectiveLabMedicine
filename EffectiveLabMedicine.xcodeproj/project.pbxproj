@@ -23,6 +23,8 @@
 		5790C0D72B0532D800643318 /* CategoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D62B0532D800643318 /* CategoryBar.swift */; };
 		5790C0D92B0538B900643318 /* CommentBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D82B0538B900643318 /* CommentBlock.swift */; };
 		5790C0DB2B05402100643318 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0DA2B05402100643318 /* Poppins-SemiBold.ttf */; };
+		5790C0DD2B054B3F00643318 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0DC2B054B3F00643318 /* Nunito-VariableFont_wght.ttf */; };
+		57A8AAF72B0559FB00DB67DE /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A8AAF62B0559FB00DB67DE /* NavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		5790C0D62B0532D800643318 /* CategoryBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBar.swift; sourceTree = "<group>"; };
 		5790C0D82B0538B900643318 /* CommentBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentBlock.swift; sourceTree = "<group>"; };
 		5790C0DA2B05402100643318 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		5790C0DC2B054B3F00643318 /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		57A8AAF62B0559FB00DB67DE /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,7 @@
 		5790C0C62B0512C900643318 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				5790C0DC2B054B3F00643318 /* Nunito-VariableFont_wght.ttf */,
 				5790C0DA2B05402100643318 /* Poppins-SemiBold.ttf */,
 				5790C0C82B0512F200643318 /* Poppins-Bold.ttf */,
 				5790C0C72B0512F200643318 /* Poppins-Medium.ttf */,
@@ -168,6 +173,7 @@
 				5790C0D32B05281400643318 /* SearchBar.swift */,
 				5790C0D62B0532D800643318 /* CategoryBar.swift */,
 				5790C0D82B0538B900643318 /* CommentBlock.swift */,
+				57A8AAF62B0559FB00DB67DE /* NavBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5790C0CA2B0512F200643318 /* Poppins-Medium.ttf in Resources */,
+				5790C0DD2B054B3F00643318 /* Nunito-VariableFont_wght.ttf in Resources */,
 				5790C0A42B050E8400643318 /* Preview Assets.xcassets in Resources */,
 				5790C0A12B050E8400643318 /* Assets.xcassets in Resources */,
 				5790C0DB2B05402100643318 /* Poppins-SemiBold.ttf in Resources */,
@@ -307,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5790C0D22B051C7B00643318 /* DoctorTab.swift in Sources */,
+				57A8AAF72B0559FB00DB67DE /* NavBar.swift in Sources */,
 				5790C0D02B051A7200643318 /* WelcomeBar.swift in Sources */,
 				5790C0D42B05281400643318 /* SearchBar.swift in Sources */,
 				5790C0D72B0532D800643318 /* CategoryBar.swift in Sources */,
