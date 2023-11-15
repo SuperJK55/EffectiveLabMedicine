@@ -14,6 +14,9 @@
 		5790C0AE2B050E8400643318 /* EffectiveLabMedicineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0AD2B050E8400643318 /* EffectiveLabMedicineTests.swift */; };
 		5790C0B82B050E8500643318 /* EffectiveLabMedicineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0B72B050E8500643318 /* EffectiveLabMedicineUITests.swift */; };
 		5790C0BA2B050E8500643318 /* EffectiveLabMedicineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0B92B050E8500643318 /* EffectiveLabMedicineUITestsLaunchTests.swift */; };
+		5790C0CA2B0512F200643318 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0C72B0512F200643318 /* Poppins-Medium.ttf */; };
+		5790C0CB2B0512F200643318 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0C82B0512F200643318 /* Poppins-Bold.ttf */; };
+		5790C0CC2B0512F200643318 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0C92B0512F200643318 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,10 @@
 		5790C0B32B050E8500643318 /* EffectiveLabMedicineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectiveLabMedicineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5790C0B72B050E8500643318 /* EffectiveLabMedicineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveLabMedicineUITests.swift; sourceTree = "<group>"; };
 		5790C0B92B050E8500643318 /* EffectiveLabMedicineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveLabMedicineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5790C0C72B0512F200643318 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		5790C0C82B0512F200643318 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		5790C0C92B0512F200643318 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		5790C0CD2B05132900643318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,7 @@
 		5790C0902B050E8200643318 = {
 			isa = PBXGroup;
 			children = (
+				5790C0C62B0512C900643318 /* Fonts */,
 				5790C09B2B050E8200643318 /* EffectiveLabMedicine */,
 				5790C0AC2B050E8400643318 /* EffectiveLabMedicineTests */,
 				5790C0B62B050E8500643318 /* EffectiveLabMedicineUITests */,
@@ -94,6 +102,8 @@
 		5790C09B2B050E8200643318 /* EffectiveLabMedicine */ = {
 			isa = PBXGroup;
 			children = (
+				5790C0CE2B0513B100643318 /* New Group */,
+				5790C0CD2B05132900643318 /* Info.plist */,
 				5790C09C2B050E8200643318 /* EffectiveLabMedicineApp.swift */,
 				5790C09E2B050E8200643318 /* ContentView.swift */,
 				5790C0A02B050E8400643318 /* Assets.xcassets */,
@@ -125,6 +135,23 @@
 				5790C0B92B050E8500643318 /* EffectiveLabMedicineUITestsLaunchTests.swift */,
 			);
 			path = EffectiveLabMedicineUITests;
+			sourceTree = "<group>";
+		};
+		5790C0C62B0512C900643318 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5790C0C82B0512F200643318 /* Poppins-Bold.ttf */,
+				5790C0C72B0512F200643318 /* Poppins-Medium.ttf */,
+				5790C0C92B0512F200643318 /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5790C0CE2B0513B100643318 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +258,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5790C0CA2B0512F200643318 /* Poppins-Medium.ttf in Resources */,
 				5790C0A42B050E8400643318 /* Preview Assets.xcassets in Resources */,
 				5790C0A12B050E8400643318 /* Assets.xcassets in Resources */,
+				5790C0CB2B0512F200643318 /* Poppins-Bold.ttf in Resources */,
+				5790C0CC2B0512F200643318 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +454,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EffectiveLabMedicine/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EffectiveLabMedicine/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +484,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EffectiveLabMedicine/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EffectiveLabMedicine/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
