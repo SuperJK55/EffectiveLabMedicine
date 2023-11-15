@@ -20,6 +20,7 @@
 		5790C0D02B051A7200643318 /* WelcomeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0CF2B051A7200643318 /* WelcomeBar.swift */; };
 		5790C0D22B051C7B00643318 /* DoctorTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D12B051C7B00643318 /* DoctorTab.swift */; };
 		5790C0D42B05281400643318 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D32B05281400643318 /* SearchBar.swift */; };
+		5790C0D72B0532D800643318 /* CategoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D62B0532D800643318 /* CategoryBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		5790C0CF2B051A7200643318 /* WelcomeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBar.swift; sourceTree = "<group>"; };
 		5790C0D12B051C7B00643318 /* DoctorTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorTab.swift; sourceTree = "<group>"; };
 		5790C0D32B05281400643318 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		5790C0D62B0532D800643318 /* CategoryBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				5790C0CF2B051A7200643318 /* WelcomeBar.swift */,
 				5790C0D12B051C7B00643318 /* DoctorTab.swift */,
 				5790C0D32B05281400643318 /* SearchBar.swift */,
+				5790C0D62B0532D800643318 /* CategoryBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				5790C0D22B051C7B00643318 /* DoctorTab.swift in Sources */,
 				5790C0D02B051A7200643318 /* WelcomeBar.swift in Sources */,
 				5790C0D42B05281400643318 /* SearchBar.swift in Sources */,
+				5790C0D72B0532D800643318 /* CategoryBar.swift in Sources */,
 				5790C09F2B050E8200643318 /* ContentView.swift in Sources */,
 				5790C09D2B050E8200643318 /* EffectiveLabMedicineApp.swift in Sources */,
 			);
