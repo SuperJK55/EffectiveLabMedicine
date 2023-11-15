@@ -15,6 +15,7 @@ struct ContentView: View {
                 DoctorTab()
                 SearchBar()
                 CategoryBar()
+                CommentBlock()
                 Spacer()
             }
         }

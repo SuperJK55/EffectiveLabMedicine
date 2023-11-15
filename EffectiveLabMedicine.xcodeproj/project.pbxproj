@@ -21,6 +21,8 @@
 		5790C0D22B051C7B00643318 /* DoctorTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D12B051C7B00643318 /* DoctorTab.swift */; };
 		5790C0D42B05281400643318 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D32B05281400643318 /* SearchBar.swift */; };
 		5790C0D72B0532D800643318 /* CategoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D62B0532D800643318 /* CategoryBar.swift */; };
+		5790C0D92B0538B900643318 /* CommentBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D82B0538B900643318 /* CommentBlock.swift */; };
+		5790C0DB2B05402100643318 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0DA2B05402100643318 /* Poppins-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		5790C0D12B051C7B00643318 /* DoctorTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorTab.swift; sourceTree = "<group>"; };
 		5790C0D32B05281400643318 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		5790C0D62B0532D800643318 /* CategoryBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBar.swift; sourceTree = "<group>"; };
+		5790C0D82B0538B900643318 /* CommentBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentBlock.swift; sourceTree = "<group>"; };
+		5790C0DA2B05402100643318 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 		5790C0C62B0512C900643318 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				5790C0DA2B05402100643318 /* Poppins-SemiBold.ttf */,
 				5790C0C82B0512F200643318 /* Poppins-Bold.ttf */,
 				5790C0C72B0512F200643318 /* Poppins-Medium.ttf */,
 				5790C0C92B0512F200643318 /* Poppins-Regular.ttf */,
@@ -162,6 +167,7 @@
 				5790C0D12B051C7B00643318 /* DoctorTab.swift */,
 				5790C0D32B05281400643318 /* SearchBar.swift */,
 				5790C0D62B0532D800643318 /* CategoryBar.swift */,
+				5790C0D82B0538B900643318 /* CommentBlock.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 				5790C0CA2B0512F200643318 /* Poppins-Medium.ttf in Resources */,
 				5790C0A42B050E8400643318 /* Preview Assets.xcassets in Resources */,
 				5790C0A12B050E8400643318 /* Assets.xcassets in Resources */,
+				5790C0DB2B05402100643318 /* Poppins-SemiBold.ttf in Resources */,
 				5790C0CB2B0512F200643318 /* Poppins-Bold.ttf in Resources */,
 				5790C0CC2B0512F200643318 /* Poppins-Regular.ttf in Resources */,
 			);
@@ -305,6 +312,7 @@
 				5790C0D72B0532D800643318 /* CategoryBar.swift in Sources */,
 				5790C09F2B050E8200643318 /* ContentView.swift in Sources */,
 				5790C09D2B050E8200643318 /* EffectiveLabMedicineApp.swift in Sources */,
+				5790C0D92B0538B900643318 /* CommentBlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

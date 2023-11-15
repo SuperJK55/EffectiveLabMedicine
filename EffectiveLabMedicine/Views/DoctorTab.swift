@@ -46,7 +46,7 @@ struct DoctorTab: View {
                 }
             }
             .padding(20)
-            .background(Color(red: 0.28, green: 0.58, blue: 1))
+            .background(Color("BGDoctorTabColor"))
             .cornerRadius(12)
     }
 }
