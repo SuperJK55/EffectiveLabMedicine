@@ -10,9 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-            VStack{
+            VStack(spacing: 20){
                 WelcomeBar()
                 DoctorTab()
+                SearchBar()
                 Spacer()
             }
         }
