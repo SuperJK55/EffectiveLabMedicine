@@ -12,6 +12,7 @@ struct ContentView: View {
         ZStack{
             VStack{
                 WelcomeBar()
+                DoctorTab()
                 Spacer()
             }
         }
