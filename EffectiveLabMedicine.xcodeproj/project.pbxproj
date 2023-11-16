@@ -107,7 +107,6 @@
 		5790C0902B050E8200643318 = {
 			isa = PBXGroup;
 			children = (
-				5790C0C62B0512C900643318 /* Fonts */,
 				5790C09B2B050E8200643318 /* EffectiveLabMedicine */,
 				5790C0AC2B050E8400643318 /* EffectiveLabMedicineTests */,
 				5790C0B62B050E8500643318 /* EffectiveLabMedicineUITests */,
@@ -128,6 +127,7 @@
 		5790C09B2B050E8200643318 /* EffectiveLabMedicine */ = {
 			isa = PBXGroup;
 			children = (
+				5790C0C62B0512C900643318 /* Fonts */,
 				57F2FB562B067FF70099611A /* Themes */,
 				5790C0CE2B0513B100643318 /* Views */,
 				5790C0CD2B05132900643318 /* Info.plist */,
