@@ -14,6 +14,22 @@
 		5790C0AE2B050E8400643318 /* EffectiveLabMedicineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0AD2B050E8400643318 /* EffectiveLabMedicineTests.swift */; };
 		5790C0B82B050E8500643318 /* EffectiveLabMedicineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0B72B050E8500643318 /* EffectiveLabMedicineUITests.swift */; };
 		5790C0BA2B050E8500643318 /* EffectiveLabMedicineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0B92B050E8500643318 /* EffectiveLabMedicineUITestsLaunchTests.swift */; };
+		5790C0CA2B0512F200643318 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0C72B0512F200643318 /* Poppins-Medium.ttf */; };
+		5790C0CB2B0512F200643318 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0C82B0512F200643318 /* Poppins-Bold.ttf */; };
+		5790C0CC2B0512F200643318 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0C92B0512F200643318 /* Poppins-Regular.ttf */; };
+		5790C0D02B051A7200643318 /* WelcomeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0CF2B051A7200643318 /* WelcomeBar.swift */; };
+		5790C0D22B051C7B00643318 /* DoctorTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D12B051C7B00643318 /* DoctorTab.swift */; };
+		5790C0D42B05281400643318 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D32B05281400643318 /* SearchBar.swift */; };
+		5790C0D72B0532D800643318 /* CategoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D62B0532D800643318 /* CategoryBar.swift */; };
+		5790C0D92B0538B900643318 /* CommentBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C0D82B0538B900643318 /* CommentBlock.swift */; };
+		5790C0DB2B05402100643318 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0DA2B05402100643318 /* Poppins-SemiBold.ttf */; };
+		5790C0DD2B054B3F00643318 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0DC2B054B3F00643318 /* Nunito-VariableFont_wght.ttf */; };
+		57A8AAF72B0559FB00DB67DE /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A8AAF62B0559FB00DB67DE /* NavBar.swift */; };
+		57F2FB582B0680250099611A /* MyColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F2FB572B0680250099611A /* MyColorTheme.swift */; };
+		57F2FB5A2B0680370099611A /* MyFontTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F2FB592B0680370099611A /* MyFontTheme.swift */; };
+		57F2FB5C2B068E880099611A /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F2FB5B2B068E850099611A /* Nunito-Bold.ttf */; };
+		57F2FB5E2B068E9D0099611A /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F2FB5D2B068E9D0099611A /* Nunito-SemiBold.ttf */; };
+		57F2FB602B068EA80099611A /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F2FB5F2B068EA80099611A /* Nunito-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,23 @@
 		5790C0B32B050E8500643318 /* EffectiveLabMedicineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectiveLabMedicineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5790C0B72B050E8500643318 /* EffectiveLabMedicineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveLabMedicineUITests.swift; sourceTree = "<group>"; };
 		5790C0B92B050E8500643318 /* EffectiveLabMedicineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveLabMedicineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5790C0C72B0512F200643318 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		5790C0C82B0512F200643318 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		5790C0C92B0512F200643318 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		5790C0CD2B05132900643318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5790C0CF2B051A7200643318 /* WelcomeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBar.swift; sourceTree = "<group>"; };
+		5790C0D12B051C7B00643318 /* DoctorTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorTab.swift; sourceTree = "<group>"; };
+		5790C0D32B05281400643318 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		5790C0D62B0532D800643318 /* CategoryBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBar.swift; sourceTree = "<group>"; };
+		5790C0D82B0538B900643318 /* CommentBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentBlock.swift; sourceTree = "<group>"; };
+		5790C0DA2B05402100643318 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		5790C0DC2B054B3F00643318 /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		57A8AAF62B0559FB00DB67DE /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		57F2FB572B0680250099611A /* MyColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorTheme.swift; sourceTree = "<group>"; };
+		57F2FB592B0680370099611A /* MyFontTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFontTheme.swift; sourceTree = "<group>"; };
+		57F2FB5B2B068E850099611A /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		57F2FB5D2B068E9D0099611A /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		57F2FB5F2B068EA80099611A /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +127,10 @@
 		5790C09B2B050E8200643318 /* EffectiveLabMedicine */ = {
 			isa = PBXGroup;
 			children = (
+				5790C0C62B0512C900643318 /* Fonts */,
+				57F2FB562B067FF70099611A /* Themes */,
+				5790C0CE2B0513B100643318 /* Views */,
+				5790C0CD2B05132900643318 /* Info.plist */,
 				5790C09C2B050E8200643318 /* EffectiveLabMedicineApp.swift */,
 				5790C09E2B050E8200643318 /* ContentView.swift */,
 				5790C0A02B050E8400643318 /* Assets.xcassets */,
@@ -125,6 +162,43 @@
 				5790C0B92B050E8500643318 /* EffectiveLabMedicineUITestsLaunchTests.swift */,
 			);
 			path = EffectiveLabMedicineUITests;
+			sourceTree = "<group>";
+		};
+		5790C0C62B0512C900643318 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				57F2FB5F2B068EA80099611A /* Nunito-Regular.ttf */,
+				57F2FB5D2B068E9D0099611A /* Nunito-SemiBold.ttf */,
+				57F2FB5B2B068E850099611A /* Nunito-Bold.ttf */,
+				5790C0DC2B054B3F00643318 /* Nunito-VariableFont_wght.ttf */,
+				5790C0DA2B05402100643318 /* Poppins-SemiBold.ttf */,
+				5790C0C82B0512F200643318 /* Poppins-Bold.ttf */,
+				5790C0C72B0512F200643318 /* Poppins-Medium.ttf */,
+				5790C0C92B0512F200643318 /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5790C0CE2B0513B100643318 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5790C0CF2B051A7200643318 /* WelcomeBar.swift */,
+				5790C0D12B051C7B00643318 /* DoctorTab.swift */,
+				5790C0D32B05281400643318 /* SearchBar.swift */,
+				5790C0D62B0532D800643318 /* CategoryBar.swift */,
+				5790C0D82B0538B900643318 /* CommentBlock.swift */,
+				57A8AAF62B0559FB00DB67DE /* NavBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57F2FB562B067FF70099611A /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				57F2FB572B0680250099611A /* MyColorTheme.swift */,
+				57F2FB592B0680370099611A /* MyFontTheme.swift */,
+			);
+			path = Themes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +305,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F2FB602B068EA80099611A /* Nunito-Regular.ttf in Resources */,
+				5790C0CA2B0512F200643318 /* Poppins-Medium.ttf in Resources */,
+				5790C0DD2B054B3F00643318 /* Nunito-VariableFont_wght.ttf in Resources */,
 				5790C0A42B050E8400643318 /* Preview Assets.xcassets in Resources */,
+				57F2FB5E2B068E9D0099611A /* Nunito-SemiBold.ttf in Resources */,
 				5790C0A12B050E8400643318 /* Assets.xcassets in Resources */,
+				5790C0DB2B05402100643318 /* Poppins-SemiBold.ttf in Resources */,
+				5790C0CB2B0512F200643318 /* Poppins-Bold.ttf in Resources */,
+				57F2FB5C2B068E880099611A /* Nunito-Bold.ttf in Resources */,
+				5790C0CC2B0512F200643318 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +339,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5790C0D22B051C7B00643318 /* DoctorTab.swift in Sources */,
+				57A8AAF72B0559FB00DB67DE /* NavBar.swift in Sources */,
+				5790C0D02B051A7200643318 /* WelcomeBar.swift in Sources */,
+				5790C0D42B05281400643318 /* SearchBar.swift in Sources */,
+				5790C0D72B0532D800643318 /* CategoryBar.swift in Sources */,
 				5790C09F2B050E8200643318 /* ContentView.swift in Sources */,
+				57F2FB5A2B0680370099611A /* MyFontTheme.swift in Sources */,
 				5790C09D2B050E8200643318 /* EffectiveLabMedicineApp.swift in Sources */,
+				57F2FB582B0680250099611A /* MyColorTheme.swift in Sources */,
+				5790C0D92B0538B900643318 /* CommentBlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +514,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EffectiveLabMedicine/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EffectiveLabMedicine/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +544,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EffectiveLabMedicine/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EffectiveLabMedicine/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
