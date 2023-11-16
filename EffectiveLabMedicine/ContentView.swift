@@ -10,18 +10,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-            VStack(spacing: 20){
-                WelcomeBar()
-                DoctorTab()
-                SearchBar()
-                CategoryBar()
-                CommentBlock()
-                Spacer()
-            }
-            .padding([.leading, .trailing], 24)
+            ScrollView(showsIndicators: false){
+                VStack(spacing: 20){
+                    WelcomeBar()
+                    DoctorTab()
+                    SearchBar()
+                    CategoryBar()
+                    CommentBlock()
+                    Spacer()
+                }
+                .padding([.leading, .trailing], 24)
+                }
             VStack{
                 Spacer()
-                    NavBar()
+                NavBar()
             }
         }
     }

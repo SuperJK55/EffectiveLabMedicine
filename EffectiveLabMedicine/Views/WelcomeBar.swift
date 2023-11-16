@@ -12,11 +12,11 @@ struct WelcomeBar: View {
         HStack{
             VStack(alignment: .leading){
                 Text("Hello,")
-                    .font(Font.custom("Poppins-Regular", size: 16))
-                    .foregroundStyle(Color("LightBlueText"))
+                    .font(Font.custom(MyFontTheme.poppinsRegular, size: 16))
+                    .foregroundStyle(MyColorTheme.Text.LightBlue)
                 Text("Hi James")
-                    .font(Font.custom("Poppins-Bold", size: 20))
-                    .foregroundStyle(Color("DarkBlueText"))
+                    .font(Font.custom(MyFontTheme.poppinsBold, size: 20))
+                    .foregroundStyle(MyColorTheme.Text.Primary)
             }
             Spacer()
             Image("Frame")

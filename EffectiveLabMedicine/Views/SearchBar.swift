@@ -15,11 +15,11 @@ struct SearchBar: View {
                         .resizable()
                         .frame(width: 24, height: 24)
                         .padding(.leading, 16)
-                    TextField("", text: $text, prompt: Text("Search doctor or health issue").foregroundColor(Color("LightBlueText")))
-                        .font(Font.custom("Poppins-Regular", size: 15))
+            TextField("", text: $text, prompt: Text("Search doctor or health issue").foregroundColor(MyColorTheme.Text.LightBlue))
+                .font(Font.custom(MyFontTheme.poppinsRegular, size: 15))
                         .padding(.vertical, 16)
                 }
-                .background(Color("BGPrimaryColor"))
+                .background(MyColorTheme.Backgrounds.PrimaryBackground)
                 .cornerRadius(12)
     }
 }

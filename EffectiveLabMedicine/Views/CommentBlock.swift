@@ -11,25 +11,25 @@ struct CommentBlock: View {
     var body: some View {
         VStack(alignment: .leading){
             Text("Near Doctor")
-                .font(Font.custom("Poppins-SemiBold", size: 16))
-                .foregroundColor(Color("DarkBlueText"))
+                .font(Font.custom(MyFontTheme.poppinsSemiBold, size: 16))
+                .foregroundColor(MyColorTheme.Text.Primary)
             HStack{
                 Image("DoctorAvatar2")
                     .resizable()
                     .frame(width: 48, height: 48)
                 VStack(alignment: .leading){
                     Text("Dr. Joseph Brostito")
-                        .font(Font.custom("Poppins-Bold", size: 16))
-                        .foregroundColor(Color("DarkBlueText"))
+                        .font(Font.custom(MyFontTheme.poppinsBold, size: 16))
+                        .foregroundColor(MyColorTheme.Text.Primary)
                     Text("Dental Specialist")
-                        .font(Font.custom("Poppins-Regular", size: 14))
-                        .foregroundColor(Color("LightGrayText"))
+                        .font(Font.custom(MyFontTheme.poppinsRegular, size: 14))
+                        .foregroundColor(MyColorTheme.Text.LightGray)
                 }
                 Spacer()
                 Image("location")
                 Text("1.2 KM")
-                .font(Font.custom("Poppins-Regular", size: 14))
-                .foregroundColor(Color("LightBlueText"))
+                .font(Font.custom(MyFontTheme.poppinsRegular, size: 14))
+                .foregroundColor(MyColorTheme.Text.LightBlue)
 
             }
             Divider()
@@ -40,15 +40,15 @@ struct CommentBlock: View {
                     .resizable()
                     .frame(width: 16, height: 16)
                 Text("4,8 (120 Reviews)")
-                    .font(Font.custom("Poppins-Regular", size: 12))
-                    .foregroundColor(Color("OrangeText"))
+                    .font(Font.custom(MyFontTheme.poppinsRegular, size: 12))
+                    .foregroundColor(MyColorTheme.Text.Orange)
                 Spacer()
                 Image("clock-blue")
                     .resizable()
                     .frame(width: 16, height: 16)
                 Text("Open at 17:00")
-                    .font(Font.custom("Poppins-Regular", size: 12))
-                    .foregroundColor(Color("BlueText"))
+                    .font(Font.custom(MyFontTheme.poppinsRegular, size: 12))
+                    .foregroundColor(MyColorTheme.Text.Blue)
                     .padding(.trailing, 24)
             }
         }
@@ -63,17 +63,17 @@ struct CommentBlock: View {
                     .frame(width: 48, height: 48)
                 VStack(alignment: .leading){
                     Text("Dr. Imran Syahir")
-                        .font(Font.custom("Poppins-Bold", size: 16))
-                        .foregroundColor(Color("DarkBlueText"))
+                        .font(Font.custom(MyFontTheme.poppinsBold, size: 16))
+                        .foregroundColor(MyColorTheme.Text.Primary)
                     Text("General Doctor")
-                        .font(Font.custom("Poppins-Regular", size: 14))
-                        .foregroundColor(Color("LightGrayText"))
+                        .font(Font.custom(MyFontTheme.poppinsRegular, size: 14))
+                        .foregroundColor(MyColorTheme.Text.LightGray)
                 }
                 Spacer()
                 Image("location")
                 Text("1.2 KM")
-                .font(Font.custom("Poppins-Regular", size: 14))
-                .foregroundColor(Color("LightBlueText"))
+                .font(Font.custom(MyFontTheme.poppinsRegular, size: 14))
+                .foregroundColor(MyColorTheme.Text.LightBlue)
 
             }
             Divider()
@@ -84,15 +84,15 @@ struct CommentBlock: View {
                     .resizable()
                     .frame(width: 16, height: 16)
                 Text("4,8 (120 Reviews)")
-                    .font(Font.custom("Poppins-Regular", size: 12))
-                    .foregroundColor(Color("OrangeText"))
+                    .font(Font.custom(MyFontTheme.poppinsRegular, size: 12))
+                    .foregroundColor(MyColorTheme.Text.Orange)
                 Spacer()
                 Image("clock-blue")
                     .resizable()
                     .frame(width: 16, height: 16)
                 Text("Open at 17:00")
-                    .font(Font.custom("Poppins-Regular", size: 12))
-                    .foregroundColor(Color("BlueText"))
+                    .font(Font.custom(MyFontTheme.poppinsRegular, size: 12))
+                    .foregroundColor(MyColorTheme.Text.Blue)
                     .padding(.trailing, 24)
             }
         }

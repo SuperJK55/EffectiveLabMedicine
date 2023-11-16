@@ -16,11 +16,11 @@ struct DoctorTab: View {
                         .frame(width: 48, height: 48)
                     VStack(alignment: .leading){
                         Text("Dr. Imran Syahir")
-                            .font(Font.custom("Poppins-Bold", size: 16))
-                            .foregroundColor(Color("PrimaryWhiteText"))
+                            .font(Font.custom(MyFontTheme.poppinsBold, size: 16))
+                            .foregroundColor(MyColorTheme.Text.White)
                         Text("General Doctor")
-                            .font(Font.custom("Poppins-Regular", size: 14))
-                            .foregroundColor(Color("LightGrayText"))
+                            .font(Font.custom(MyFontTheme.poppinsRegular, size: 14))
+                            .foregroundColor(MyColorTheme.Text.LightGray)
                     }
                     Spacer()
                     Image("arrow-right")
@@ -33,20 +33,20 @@ struct DoctorTab: View {
                         .resizable()
                         .frame(width: 16, height: 16)
                     Text("Sunday, 12 June")
-                        .font(Font.custom("Poppins-Regular", size: 12))
-                        .foregroundColor(Color("PrimaryWhiteText"))
+                        .font(Font.custom(MyFontTheme.poppinsRegular, size: 12))
+                        .foregroundColor(MyColorTheme.Text.White)
                     Spacer()
                     Image("clock")
                         .resizable()
                         .frame(width: 16, height: 16)
                     Text("11:00 - 12:00 AM")
-                        .font(Font.custom("Poppins-Regular", size: 12))
-                        .foregroundColor(Color("PrimaryWhiteText"))
+                        .font(Font.custom(MyFontTheme.poppinsRegular, size: 12))
+                        .foregroundColor(MyColorTheme.Text.White)
                         .padding(.trailing, 24)
                 }
             }
             .padding(20)
-            .background(Color("BGDoctorTabColor"))
+            .background(MyColorTheme.Backgrounds.SecondaryBackground)
             .cornerRadius(12)
     }
 }

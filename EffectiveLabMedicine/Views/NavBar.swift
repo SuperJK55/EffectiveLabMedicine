@@ -14,12 +14,12 @@ struct NavBar: View {
             HStack(alignment: .center, spacing: 8) {
                 Image("home")
                 Text("Home")
-                    .font(Font.custom("Nunito-VariableFont_wght", size: 14).weight(.bold))
+                    .font(Font.custom(MyFontTheme.nunitoBold, size: 14))
                     .foregroundColor(Color("NavBarText"))
                 
             }
             .padding(12)
-            .background(Color("ButtonHomeColor").opacity(0.1))
+            .background(MyColorTheme.NavBar.NavBarChip)
             .cornerRadius(12)
             Spacer()
             Image("calendar-black")
