@@ -10,17 +10,17 @@ import SwiftUI
 struct SearchBar: View {
     @State private var text: String = ""
     var body: some View {
-        HStack (alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 12) {
+        HStack (alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: MySizes.searchBarSpacing) {
                     Image("search-normal")
                         .resizable()
-                        .frame(width: 24, height: 24)
-                        .padding(.leading, 16)
+                        .frame(width: MySizes.iconSearchSize, height: MySizes.iconSearchSize)
+                        .padding(.leading, MySizes.paddingImageSearchBar)
             TextField("", text: $text, prompt: Text("Search doctor or health issue").foregroundColor(MyColorTheme.Text.LightBlue))
-                .font(Font.custom(MyFontTheme.poppinsRegular, size: 15))
-                        .padding(.vertical, 16)
+                .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontMedium))
+                .padding(.vertical, MySizes.paddingSearchField)
                 }
                 .background(MyColorTheme.Backgrounds.PrimaryBackground)
-                .cornerRadius(12)
+                .cornerRadius(MySizes.cornerRadiusForAllBlock)
     }
 }
 

@@ -11,16 +11,16 @@ struct NavBar: View {
     var body: some View {
         HStack(alignment: .center){
             Spacer()
-            HStack(alignment: .center, spacing: 8) {
+            HStack(alignment: .center, spacing: MySizes.navBarSpacing) {
                 Image("home")
                 Text("Home")
-                    .font(Font.custom(MyFontTheme.nunitoBold, size: 14))
+                    .font(Font.custom(MyFontTheme.nunitoBold, size: MySizes.fontSmall))
                     .foregroundColor(Color("NavBarText"))
                 
             }
             .padding(12)
             .background(MyColorTheme.NavBar.NavBarChip)
-            .cornerRadius(12)
+            .cornerRadius(MySizes.cornerRadiusForAllBlock)
             Spacer()
             Image("calendar-black")
             Spacer()
@@ -29,7 +29,7 @@ struct NavBar: View {
             Image("profile")
             Spacer()
         }
-        .padding(10)
+        .padding(MySizes.paddingNavBar)
         .frame(width: nil, alignment: .center)
         .background(.white)
     }

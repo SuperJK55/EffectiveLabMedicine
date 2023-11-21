@@ -12,16 +12,17 @@ struct WelcomeBar: View {
         HStack{
             VStack(alignment: .leading){
                 Text("Hello,")
-                    .font(Font.custom(MyFontTheme.poppinsRegular, size: 16))
+                    .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontLarge))
                     .foregroundStyle(MyColorTheme.Text.LightBlue)
                 Text("Hi James")
-                    .font(Font.custom(MyFontTheme.poppinsBold, size: 20))
+                    .font(Font.custom(MyFontTheme.poppinsBold, size: MySizes.fontExtraLarge))
                     .foregroundStyle(MyColorTheme.Text.Primary)
             }
             Spacer()
             Image("Frame")
                 .resizable()
-                .frame(width: 56, height: 56)
+                .frame(width: MySizes.userAvatarSize, 
+                       height: MySizes.userAvatarSize)
         }
     }
 }

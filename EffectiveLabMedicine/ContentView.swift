@@ -11,13 +11,13 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             ScrollView(showsIndicators: false){
-                VStack(spacing: 20){
+                VStack(spacing: MySizes.contentViewSpacing){
                     WelcomeBar()
                     DoctorTab()
                     SearchBar()
                     CategoryBar()
-                    CommentBlock()
-                    Spacer()
+                    NearDoctorTab()
+                    Spacer().frame(height: MySizes.spacerContentViewHeight)
                 }
                 .padding([.leading, .trailing], 24)
                 }
