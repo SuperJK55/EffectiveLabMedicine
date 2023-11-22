@@ -24,10 +24,14 @@ struct DoctorTab: View {
                             .foregroundColor(MyColorTheme.Text.LightGray)
                     }
                     Spacer()
-                    Image("arrow-right")
+                    Button (action: {
+                               print("Arrow tapped")
+                    }){
+                        Image("arrow-right")
+                    }
                 }
                 Divider()
-                    .overlay(.white.opacity(0.5))
+                    .overlay(MyColorTheme.Divider.PrimaryDivider)
                     .frame(height: MySizes.heightDivider)
                 HStack{
                     Image("calendar-2")
