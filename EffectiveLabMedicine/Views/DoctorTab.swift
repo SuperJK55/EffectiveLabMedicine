@@ -13,41 +13,48 @@ struct DoctorTab: View {
                 HStack{
                     Image("DoctorAvatar1")
                         .resizable()
-                        .frame(width: 48, height: 48)
+                        .frame(width: MySizes.doctorAvatarSize,
+                               height: MySizes.doctorAvatarSize)
                     VStack(alignment: .leading){
                         Text("Dr. Imran Syahir")
-                            .font(Font.custom(MyFontTheme.poppinsBold, size: 16))
+                            .font(Font.custom(MyFontTheme.poppinsBold, size: MySizes.fontLarge))
                             .foregroundColor(MyColorTheme.Text.White)
                         Text("General Doctor")
-                            .font(Font.custom(MyFontTheme.poppinsRegular, size: 14))
+                            .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontSmall))
                             .foregroundColor(MyColorTheme.Text.LightGray)
                     }
                     Spacer()
-                    Image("arrow-right")
+                    Button (action: {
+                               print("Arrow tapped")
+                    }){
+                        Image("arrow-right")
+                    }
                 }
                 Divider()
-                    .overlay(.white.opacity(0.5))
-                    .frame(height:16)
+                    .overlay(MyColorTheme.Divider.PrimaryDivider)
+                    .frame(height: MySizes.heightDivider)
                 HStack{
                     Image("calendar-2")
                         .resizable()
-                        .frame(width: 16, height: 16)
+                        .frame(width: MySizes.iconSize,
+                               height: MySizes.iconSize)
                     Text("Sunday, 12 June")
-                        .font(Font.custom(MyFontTheme.poppinsRegular, size: 12))
+                        .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontExtraSmall))
                         .foregroundColor(MyColorTheme.Text.White)
                     Spacer()
                     Image("clock")
                         .resizable()
-                        .frame(width: 16, height: 16)
+                        .frame(width: MySizes.iconSize,
+                               height: MySizes.iconSize)
                     Text("11:00 - 12:00 AM")
-                        .font(Font.custom(MyFontTheme.poppinsRegular, size: 12))
+                        .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontExtraSmall))
                         .foregroundColor(MyColorTheme.Text.White)
-                        .padding(.trailing, 24)
+                        .padding(.trailing, MySizes.paddingTimeFieldInDoctorTab)
                 }
             }
-            .padding(20)
+            .padding(MySizes.paddingAfterTab)
             .background(MyColorTheme.Backgrounds.SecondaryBackground)
-            .cornerRadius(12)
+            .cornerRadius(MySizes.cornerRadiusForAllBlock)
     }
 }
 #Preview {
