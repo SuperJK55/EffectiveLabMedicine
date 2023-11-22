@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CategoryModel {
+struct Category{
     var image: String
     var name: String
 }

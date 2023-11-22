@@ -8,45 +8,43 @@
 import SwiftUI
 
 struct NearDoctorTab: View {
+    let nearDoctor: NearDoctor
     var body: some View {
         VStack(alignment: .leading){
-            Text("Near Doctor")
-                .font(Font.custom(MyFontTheme.poppinsSemiBold, size: MySizes.fontLarge))
-                .foregroundColor(MyColorTheme.Text.Primary)
             HStack{
-                Image("DoctorAvatar2")
+                Image(nearDoctor.doctorAvatar)
                     .resizable()
                     .frame(width: MySizes.doctorAvatarSize, height: MySizes.doctorAvatarSize)
                 VStack(alignment: .leading){
-                    Text("Dr. Joseph Brostito")
+                    Text(nearDoctor.name)
                         .font(Font.custom(MyFontTheme.poppinsBold, size: MySizes.fontLarge))
                         .foregroundColor(MyColorTheme.Text.Primary)
-                    Text("Dental Specialist")
+                    Text(nearDoctor.speciality)
                         .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontSmall))
                         .foregroundColor(MyColorTheme.Text.LightBlue)
                 }
                 Spacer()
                 Image("location")
-                Text("1.2 KM")
+                Text(String(nearDoctor.distance) + " KM")
                 .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontSmall))
                 .foregroundColor(MyColorTheme.Text.LightBlue)
 
             }
             Divider()
-                .overlay(.white.opacity(0.5))
+                .overlay(MyColorTheme.Divider.PrimaryDivider)
                 .frame(height: MySizes.heightDivider)
             HStack{
                 Image("clock-orange")
                     .resizable()
                     .frame(width: MySizes.iconSize, height: MySizes.iconSize)
-                Text("4,8 (120 Reviews)")
+                Text(String(nearDoctor.rating) + " (" + String(nearDoctor.reviews) + " Reviews)")
                     .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontExtraSmall))
                     .foregroundColor(MyColorTheme.Text.Orange)
                 Spacer()
                 Image("clock-blue")
                     .resizable()
                     .frame(width: MySizes.iconSize, height: MySizes.iconSize)
-                Text("Open at 17:00")
+                Text("Open at " + nearDoctor.time)
                     .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontExtraSmall))
                     .foregroundColor(MyColorTheme.Text.Blue)
                     .padding(.trailing, MySizes.paddingTimeFieldInNearDoctor)
@@ -55,54 +53,20 @@ struct NearDoctorTab: View {
         .padding(MySizes.paddingAfterTab)
         .background(.white)
         .cornerRadius(MySizes.cornerRadiusForAllBlock)
-        .shadow(color: Color(red: 0.35, green: 0.46, blue: 0.65).opacity(0.04), radius: 10, x: 2, y: 12)
-        VStack(alignment: .leading){
-            HStack{
-                Image("DoctorAvatar1")
-                    .resizable()
-                    .frame(width: MySizes.doctorAvatarSize, height: MySizes.doctorAvatarSize)
-                VStack(alignment: .leading){
-                    Text("Dr. Imran Syahir")
-                        .font(Font.custom(MyFontTheme.poppinsBold, size: MySizes.fontLarge))
-                        .foregroundColor(MyColorTheme.Text.Primary)
-                    Text("General Doctor")
-                        .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontSmall))
-                        .foregroundColor(MyColorTheme.Text.LightBlue)
-                }
-                Spacer()
-                Image("location")
-                Text("1.2 KM")
-                .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontSmall))
-                .foregroundColor(MyColorTheme.Text.LightBlue)
-
-            }
-            Divider()
-                .overlay(.white.opacity(0.5))
-                .frame(height: MySizes.heightDivider)
-            HStack{
-                Image("clock-orange")
-                    .resizable()
-                    .frame(width: MySizes.iconSize, height: MySizes.iconSize)
-                Text("4,8 (120 Reviews)")
-                    .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontExtraSmall))
-                    .foregroundColor(MyColorTheme.Text.Orange)
-                Spacer()
-                Image("clock-blue")
-                    .resizable()
-                    .frame(width: MySizes.iconSize, height: MySizes.iconSize)
-                Text("Open at 17:00")
-                    .font(Font.custom(MyFontTheme.poppinsRegular, size: MySizes.fontExtraSmall))
-                    .foregroundColor(MyColorTheme.Text.Blue)
-                    .padding(.trailing, MySizes.paddingTimeFieldInNearDoctor)
-            }
-        }
-        .padding(MySizes.paddingAfterTab)
-        .background(.white)
-        .cornerRadius(MySizes.cornerRadiusForAllBlock)
-        .shadow(color: Color(red: 0.35, green: 0.46, blue: 0.65).opacity(0.04), radius: 10, x: 2, y: 12)
+        .shadow(color: MyColorTheme.Shadow.PrimaryShadow, radius: MySizes.radiusShadow, x: MySizes.xCoordinateShadow, y: MySizes.yCoordinateShadow)
     }
 }
 
 #Preview {
-    NearDoctorTab()
+    NearDoctorTab(
+        nearDoctor: NearDoctor(
+        id: 1,
+        name: "Dr. Joseph Brostito",
+        doctorAvatar: "DoctorAvatar2",
+        speciality: "Dental Specialist",
+        distance: 1.2,
+        rating: 4.8,
+        reviews: 120,
+        time: "17.00"
+    ))
 }

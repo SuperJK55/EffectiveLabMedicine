@@ -11,6 +11,7 @@
 		575133EB2B0CC15700D0E583 /* NearDoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575133EA2B0CC15700D0E583 /* NearDoctorModel.swift */; };
 		575133ED2B0CC38100D0E583 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575133EC2B0CC38100D0E583 /* CategoryModel.swift */; };
 		575133F02B0CCA8700D0E583 /* MySizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575133EF2B0CCA8700D0E583 /* MySizes.swift */; };
+		575133F22B0D042000D0E583 /* NearDoctorTabList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575133F12B0D042000D0E583 /* NearDoctorTabList.swift */; };
 		5790C09D2B050E8200643318 /* EffectiveLabMedicineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C09C2B050E8200643318 /* EffectiveLabMedicineApp.swift */; };
 		5790C09F2B050E8200643318 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5790C09E2B050E8200643318 /* ContentView.swift */; };
 		5790C0A12B050E8400643318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5790C0A02B050E8400643318 /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		575133EA2B0CC15700D0E583 /* NearDoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorModel.swift; sourceTree = "<group>"; };
 		575133EC2B0CC38100D0E583 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		575133EF2B0CCA8700D0E583 /* MySizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySizes.swift; sourceTree = "<group>"; };
+		575133F12B0D042000D0E583 /* NearDoctorTabList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorTabList.swift; sourceTree = "<group>"; };
 		5790C0992B050E8200643318 /* EffectiveLabMedicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectiveLabMedicine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5790C09C2B050E8200643318 /* EffectiveLabMedicineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveLabMedicineApp.swift; sourceTree = "<group>"; };
 		5790C09E2B050E8200643318 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				5790C0D62B0532D800643318 /* CategoryBar.swift */,
 				5790C0D82B0538B900643318 /* NearDoctorTab.swift */,
 				57A8AAF62B0559FB00DB67DE /* NavBar.swift */,
+				575133F12B0D042000D0E583 /* NearDoctorTabList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				57F2FB5A2B0680370099611A /* MyFontTheme.swift in Sources */,
 				5790C09D2B050E8200643318 /* EffectiveLabMedicineApp.swift in Sources */,
 				57F2FB582B0680250099611A /* MyColorTheme.swift in Sources */,
+				575133F22B0D042000D0E583 /* NearDoctorTabList.swift in Sources */,
 				5790C0D92B0538B900643318 /* NearDoctorTab.swift in Sources */,
 				575133EB2B0CC15700D0E583 /* NearDoctorModel.swift in Sources */,
 				575133E92B0CC11800D0E583 /* UserModel.swift in Sources */,

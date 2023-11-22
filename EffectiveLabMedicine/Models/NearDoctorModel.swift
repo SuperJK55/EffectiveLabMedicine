@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct NearDoctorModel{
+struct NearDoctor{
     let id: Int
     var name: String
     var doctorAvatar: String

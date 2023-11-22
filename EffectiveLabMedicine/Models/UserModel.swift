@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct UserModel{
+struct User{
     let id: Int
     var name: String
     var image: String

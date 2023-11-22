@@ -27,8 +27,10 @@ struct MyColorTheme{
         static let PrimaryBackground = Color("BGPrimaryColor")
         static let SecondaryBackground = Color("BGDoctorTabColor")
     }
-    
-    
-    
-
+    struct Shadow{
+        static let PrimaryShadow = Color("ShadowColor")
+    }
+    struct Divider{
+        static let PrimaryDivider = Color("DividerColor")
+    }
 }

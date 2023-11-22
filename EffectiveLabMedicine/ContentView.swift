@@ -16,7 +16,7 @@ struct ContentView: View {
                     DoctorTab()
                     SearchBar()
                     CategoryBar()
-                    NearDoctorTab()
+                    NearDoctorTabList()
                     Spacer().frame(height: MySizes.spacerContentViewHeight)
                 }
                 .padding([.leading, .trailing], 24)
