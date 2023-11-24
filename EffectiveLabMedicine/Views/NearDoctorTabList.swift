@@ -31,7 +31,10 @@ struct NearDoctorTabList: View {
         )
     ]
     var body: some View {
-        VStack{
+        VStack(alignment: .leading){
+            Text("Near Doctor")
+                .font(Font.custom(MyFontTheme.poppinsSemiBold, size: MySizes.fontLarge))
+                .foregroundColor(MyColorTheme.Text.Primary)
             ForEach(nearDoctors.indices) { index in
                 NearDoctorTab(nearDoctor: nearDoctors[index])
                 
