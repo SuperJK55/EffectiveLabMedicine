@@ -12,7 +12,7 @@ struct NavBar: View {
         HStack(alignment: .center){
             Spacer()
             HStack(alignment: .center, spacing: MySizes.navBarSpacing) {
-                Image("home")
+                Image("Home")
                 Text("Home")
                     .font(Font.custom(MyFontTheme.nunitoBold, size: MySizes.fontSmall))
                     .foregroundColor(Color("NavBarText"))
